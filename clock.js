@@ -15,7 +15,7 @@ function clock() {
   
   let year = time.getFullYear();
   let month = twoDigit(time.getMonth() + 1);
-  let day = twoDigit(time.getDay());
+  let day = twoDigit(time.getDate());
   let week = weeks[time.getDay()];
   let hour = twoDigit(time.getHours());
   let min = twoDigit(time.getMinutes());
